@@ -1,0 +1,15 @@
+/* This file index.css is used to give STYLE to the ENTIRE-WEBSITE */
+/* aestrik (*) : we use to TARGET every element on the page */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "outfit", Arial, Helvetica, sans-serif;
+}
+
+/* It is been observed that when we click the section to get navigated to it,
+the scroll is not smooth.. SO TO MAKE IT SMOOTH WE CAN DO THIS.. */
+
+html{
+  scroll-behavior: smooth;
+}

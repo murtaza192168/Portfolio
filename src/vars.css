@@ -1,0 +1,16 @@
+/* variables here specially helps us define the css properties like: fonts, colors AT A SINGLE PLACE.. and then just import
+these variables at multiple other places. THIS MAKES IT A LOT EASIER TO EDIT VALUES LATER ON... */
+
+:root{
+    /* COLORS */
+    --color-text: #fff;
+   
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #04152d;
+
+    /* FONTS */
+    --font-roboto: "Roboto";
+}
+/*  */

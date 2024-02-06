@@ -1,0 +1,33 @@
+[
+
+    {
+        "title": "Tic-Tac-Row",
+        "imgSrc": "projects/projectIcon.png",
+        "description": "Experience strategic gameplay with my Java-based X and O creation, leveraging OOP principles and 2D arrays for an engaging twist on the classic game",
+        "skills": ["Java [OOP]"],
+        "demo": "https://www.canva.com/design/DAFypVpssi4/Zo_efvHEmyq4DEFEalCedw/watch?utm_content=DAFypVpssi4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        "source": "https://github.com/murtaza192168/InternPe-internship/tree/master/src/main/java/Task_Week_3"
+    },
+ 
+    {
+        "title": "Cars 24x7 website",
+        "imgSrc": "projects/projectIcon.png",
+        "description": "I designed and developed DriveSync365, an innovative automotive hub, utilizing my expertise in HTML and CSS.",
+        "skills": ["HTML", "CSS"],
+        "demo": "https://murtaza192168.github.io/Cars_24x7-Website/",
+        "source": "https://github.com/murtaza192168/Cars_24x7-Website.git"
+    },
+
+    {
+        "title": "Stock price data feed",
+        "imgSrc": "projects/projectIcon.png",
+        "description": "Built an interface with a stock price data feed and visually displayed data to assist our traders as a Software Engineer at JPMorgan  Job Sim",
+        "skills": ["Python", "Git", "React.js", "Financial Analysis"],
+        "demo": "https://www.canva.com/design/DAF76pgpoa4/KvpyYo0_ws_irZYuPUbcaA/watch?utm_content=DAF76pgpoa4&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+        "source": "https://github.com/murtaza192168/forage-jpmc-swe-task-1.git"
+    }
+
+
+
+
+]

@@ -1,0 +1,49 @@
+[
+
+    {
+        "role": " Web Desiner | Developer",
+        "organisation": "Oasis Infobyte",
+        "startDate": "Feb, 2024",
+        "endDate": "Present",
+        "experiences": ["Designing user interfaces", "Working on translating UI into code using the React JavaScript framework"],
+        "imgSrc": "history/oasisInfobyteIcon.png"
+    }, 
+
+    {
+        "role": " Web Development Intern",
+        "organisation": "Unified Mentor",
+        "startDate": "Jan, 2024",
+        "endDate": "Present",
+        "experiences": ["Working on web technologies to fulfill business logic"],
+        "imgSrc": "history/unifiedMentorIcon.png"
+    },
+
+    {
+        "role": "Java Programmer",
+        "organisation": "InternPe",
+        "startDate": "Dec, 2023",
+        "endDate": "Jan, 2024",
+        "experiences": ["Worked with object-oriented concepts", "Applied design principles such as SOLID"],
+        "imgSrc": "history/internPeIcon.png"
+    },
+
+    {
+        "role": "Database Marketing Manager",
+        "organisation": "Windowala India Pvt. Ltd.",
+        "startDate": "Dec, 2022",
+        "endDate": "May, 2023",
+        "experiences": ["Conducted thorough research on client names, construction projects, and post-construction issues", "Managed segmentation of construction site data, client details, and photography editing"],
+        "imgSrc": "history/windowalaIcon.png"
+    },
+
+    {
+        "role": "Social Media Designer",
+        "organisation": "Friendly Automobiles",
+        "startDate": "July, 2021",
+        "endDate": "Sept, 2022",
+        "experiences": ["Worked on captivating visual content for social media", "Boosted brand engagement", "Worked on optimizing content for maximum impact and resonance with target audiences"],
+        "imgSrc": "history/friendlyautomobilesIcon.png"
+    }
+
+
+]

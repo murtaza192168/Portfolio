@@ -1,0 +1,28 @@
+[
+
+    {
+        "title": "HTML5",
+        "imgSrc": "skills/html5.png"
+    },
+    {
+        "title": "CSS",
+        "imgSrc": "skills/css.png"
+    },
+    {
+        "title": "Java",
+        "imgSrc": "skills/javaprogrammerIcon.png"
+    },
+    {
+        "title": "JavaScript",
+        "imgSrc": "skills/javaScript.png"
+    },
+    {
+        "title": "React.js",
+        "imgSrc": "skills/react.png"
+    },
+    {
+        "title": "Canva",
+        "imgSrc": "skills/canva.png"
+    }
+
+]

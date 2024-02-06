@@ -1,0 +1,7 @@
+@import "./vars.css";
+.App{
+    background: var(--color-bg); /*Since we are using a variable here, we need to import it from the vars.css file*/
+    height: 100%; /* 100vh of the page  */
+    width: 100%; /* 100% of the page  */
+    overflow: hidden;
+}

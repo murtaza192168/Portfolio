@@ -1,0 +1,96 @@
+@import "../../vars.css";
+
+/*                       STATIC STYLING                */
+
+.container{
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    z-index: 1; /*this section should be above one layer. So to make work this, we need to set position as relative to the parent*/
+    padding: 73px;
+    margin-top: 129px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+}
+
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 44.1px;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aboutImage{
+    width: 35%; /*width of an image is now 35% of the page*/
+}
+.aboutItems{
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;/*gap between each item */
+}
+.aboutItem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+    list-style: none;
+    border-radius: 20px;
+    background-image: 
+                 linear-gradient(90deg, rgba(165, 215, 232, 0.42)0%,
+                                              rgba(255, 255,255, 0) 100%);
+    /* but I dont want this linear-gradient effect to be visible everytime */
+    /* I want to only show that glow on hovering it */
+    background-size: 0 100%;/* For now lets do this */
+
+    /* To apply neat-animation while hovering..
+        i.e. smooth transition from left to right */
+     transition: 0.4s;    
+     background-repeat: no-repeat;
+}
+/* applying hover-efect on each item */
+.aboutItem:hover{
+    /* update the background-size to 100% 100% */
+    background-size: 100% 100%; 
+    /* this 100% 100% means that whenever I will take my cursor on it, it will hover */
+}
+
+/* Now Lets apply some styling to the items inside aboutItem_class (selector) */
+/* h3 */
+.aboutItem h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.aboutItem p{
+    font-size: 25px;
+}
+
+/*                       DYNAMIC STYLING                */
+
+@media screen and (max-width: 830px){
+    .container{
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .content{
+        flex-direction: column;
+    }    
+    .aboutImage{
+        display: none;
+    }
+    .aboutItems{
+        margin-top: 29px;
+    }
+    .aboutItem{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
